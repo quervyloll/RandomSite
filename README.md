@@ -11,5 +11,5 @@ There is no website up yet, you can download the RandomSite folder and try it ou
 - Usernames - Coming soon
 - Credit Cards - Coming soon
 - Social Security Numbers - Coming soon
-### Why
+## Why
 This project is just for me to refine my website building skills and I do not like coming up with passwords or usernames.
