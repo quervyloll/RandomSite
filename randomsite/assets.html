@@ -1,5 +1,19 @@
 <!DOCTYPE html>
-<h1>RandomSite</h1>
-    <main>
-        <body>Randomly generate information</body>
-    </main>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomSite</title>
+    <script src="/scripts/passwordGen.js" defer></script>
+</head>
+<body>
+    <h1>Random Password Generator</h1>
+
+    <label for="lengthSlider">Password Length: <span id="lengthValue">10</span></label>
+    <input type="range" id="lengthSlider" min="1" max="50" value="10">
+    
+    <button id="generateButton">Generate Password</button>
+
+    <div id="resultField"></div>
+</body>
+</html>
